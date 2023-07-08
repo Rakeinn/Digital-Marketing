@@ -32,3 +32,41 @@
     cursor: pointer;
     
 }
+.bannerimg{
+    width: 800px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/8174985.jpg");
+    background-size: cover;
+    color: white;
+    
+    
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 10px 20px black;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 1px 10px 20px black;
+    color: bisque;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: bisque;
+    
+}
