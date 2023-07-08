@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.test{
+    color: palevioletred;
+    cursor: url("https://media.istockphoto.com/id/1138913775/vector/smiling-emoticon-with-3-hearts.jpg?s=612x612&w=0&k=20&c=T96YojxanjjX5UULQKBQAVf6tOqKmQEFNoQLFxh74lM="),auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 20px;
+    background-color: rebeccapurple;
+    width: 120px;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: brown;
+}
